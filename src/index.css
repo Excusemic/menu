@@ -87,6 +87,24 @@ h1 {
 }
 @media only screen and (max-width: 1066px) {
   .menu-item {
+    flex-wrap: wrap;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+  ul {
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul li {
+    margin: 0;
   }
 }
